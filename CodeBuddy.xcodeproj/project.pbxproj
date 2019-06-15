@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		07495F9322B543EB008E2B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07495F9222B543EB008E2B75 /* AppDelegate.swift */; };
-		07495F9522B543EB008E2B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07495F9422B543EB008E2B75 /* ViewController.swift */; };
+		07495F9522B543EB008E2B75 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07495F9422B543EB008E2B75 /* RegisterViewController.swift */; };
 		07495F9822B543EB008E2B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07495F9622B543EB008E2B75 /* Main.storyboard */; };
 		07495F9A22B543EE008E2B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07495F9922B543EE008E2B75 /* Assets.xcassets */; };
 		07495F9D22B543EE008E2B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07495F9B22B543EE008E2B75 /* LaunchScreen.storyboard */; };
 		07495FA822B543EE008E2B75 /* CodeBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07495FA722B543EE008E2B75 /* CodeBuddyTests.swift */; };
 		07495FB322B54972008E2B75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07495FB222B54972008E2B75 /* GoogleService-Info.plist */; };
+		07495FB622B54ED0008E2B75 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07495FB522B54ED0008E2B75 /* Alert.swift */; };
+		07495FB822B5663E008E2B75 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07495FB722B5663D008E2B75 /* Users.swift */; };
+		07495FBA22B567C5008E2B75 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07495FB922B567C5008E2B75 /* SpinnerViewController.swift */; };
+		07495FBC22B57607008E2B75 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07495FBB22B57607008E2B75 /* LogInViewController.swift */; };
+		07495FBF22B5801D008E2B75 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07495FBE22B5801D008E2B75 /* ProfileViewController.swift */; };
+		07495FC122B5A82E008E2B75 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07495FC022B5A82E008E2B75 /* EditProfileViewController.swift */; };
 		9604BB498B28667A21FC8999 /* Pods_CodeBuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92C1CE70C1AD85A00BCBA57 /* Pods_CodeBuddyTests.framework */; };
 		D15D26D952CBCD77E813B1EF /* Pods_CodeBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E47F23908304D6FBED0E3E /* Pods_CodeBuddy.framework */; };
 /* End PBXBuildFile section */
@@ -31,7 +37,7 @@
 /* Begin PBXFileReference section */
 		07495F8F22B543EB008E2B75 /* CodeBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07495F9222B543EB008E2B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07495F9422B543EB008E2B75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07495F9422B543EB008E2B75 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		07495F9722B543EB008E2B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07495F9922B543EE008E2B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07495F9C22B543EE008E2B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +46,12 @@
 		07495FA722B543EE008E2B75 /* CodeBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBuddyTests.swift; sourceTree = "<group>"; };
 		07495FA922B543EE008E2B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07495FB222B54972008E2B75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		07495FB522B54ED0008E2B75 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		07495FB722B5663D008E2B75 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		07495FB922B567C5008E2B75 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		07495FBB22B57607008E2B75 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		07495FBE22B5801D008E2B75 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		07495FC022B5A82E008E2B75 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		135C5342A52F1C241D3B7E29 /* Pods-CodeBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeBuddy.release.xcconfig"; path = "Target Support Files/Pods-CodeBuddy/Pods-CodeBuddy.release.xcconfig"; sourceTree = "<group>"; };
 		40E47F23908304D6FBED0E3E /* Pods_CodeBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4317B97AC951E5FC01176B99 /* Pods-CodeBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeBuddy.debug.xcconfig"; path = "Target Support Files/Pods-CodeBuddy/Pods-CodeBuddy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,8 +103,11 @@
 		07495F9122B543EB008E2B75 /* CodeBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				07495FBD22B5800A008E2B75 /* Profile */,
+				07495FB422B54EC2008E2B75 /* Helpers */,
 				07495F9222B543EB008E2B75 /* AppDelegate.swift */,
-				07495F9422B543EB008E2B75 /* ViewController.swift */,
+				07495F9422B543EB008E2B75 /* RegisterViewController.swift */,
+				07495FBB22B57607008E2B75 /* LogInViewController.swift */,
 				07495F9622B543EB008E2B75 /* Main.storyboard */,
 				07495F9922B543EE008E2B75 /* Assets.xcassets */,
 				07495F9B22B543EE008E2B75 /* LaunchScreen.storyboard */,
@@ -111,6 +126,25 @@
 			path = CodeBuddyTests;
 			sourceTree = "<group>";
 		};
+		07495FB422B54EC2008E2B75 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				07495FB522B54ED0008E2B75 /* Alert.swift */,
+				07495FB722B5663D008E2B75 /* Users.swift */,
+				07495FB922B567C5008E2B75 /* SpinnerViewController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		07495FBD22B5800A008E2B75 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				07495FBE22B5801D008E2B75 /* ProfileViewController.swift */,
+				07495FC022B5A82E008E2B75 /* EditProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		CB3A0442294B283E230EFCDA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +153,6 @@
 				D03B38CF46FCC21AF910404B /* Pods-CodeBuddyTests.debug.xcconfig */,
 				E5A7EFF9F0496C446F5545E5 /* Pods-CodeBuddyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -316,8 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07495F9522B543EB008E2B75 /* ViewController.swift in Sources */,
+				07495FC122B5A82E008E2B75 /* EditProfileViewController.swift in Sources */,
+				07495FB822B5663E008E2B75 /* Users.swift in Sources */,
+				07495FB622B54ED0008E2B75 /* Alert.swift in Sources */,
+				07495FBC22B57607008E2B75 /* LogInViewController.swift in Sources */,
+				07495F9522B543EB008E2B75 /* RegisterViewController.swift in Sources */,
+				07495FBF22B5801D008E2B75 /* ProfileViewController.swift in Sources */,
 				07495F9322B543EB008E2B75 /* AppDelegate.swift in Sources */,
+				07495FBA22B567C5008E2B75 /* SpinnerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
